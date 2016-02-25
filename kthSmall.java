@@ -7,6 +7,12 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
+ 
+ //I use an array to record whether a subtree contains the value we are looking for. 
+ //The first value denotes whether we find this value (0 means no and 1 means yes),and 
+ //the second element is the value we return. Only when the first one is 1, do we use the second value.
+ 
+ 
 public class Solution {
     public int kthSmallest(TreeNode root, int k) {
         int[]a =sub(root,k);
