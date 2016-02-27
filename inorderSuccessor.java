@@ -1,3 +1,6 @@
+Actually, what if we have node with equal values? 
+Let's say 1234456, and the successor of 4 could be 4 or 5?
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
