@@ -1,3 +1,5 @@
+
+//o(n) memory
 Stack<TreeNode> stack=new Stack<>();
 public BSTIterator(TreeNode root) {
     inorderTravel(root);
@@ -21,7 +23,7 @@ public void inorderTravel(TreeNode root){
 
 
 
-
+//o(h) memory
 Stack<TreeNode> stack=new Stack<>();
 public BSTIterator(TreeNode root) {
     while(root!=null){
